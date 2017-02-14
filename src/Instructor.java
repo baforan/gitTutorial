@@ -3,12 +3,10 @@
  */
 public class Instructor extends Person {
     String title;
-    boolean fulltime;
 
-    public Instructor(String name, String emailAddress, String title, boolean fulltime){
+    public Instructor(String name, String emailAddress, String title){
         super(name,emailAddress);
         this.title=title;
-        this.fulltime = fulltime;
     }
 
     public String toString(){
